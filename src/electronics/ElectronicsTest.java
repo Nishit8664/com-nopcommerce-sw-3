@@ -67,7 +67,7 @@ public class ElectronicsTest extends Utility {
 
     @Before
     public void setUp() {                       //Open browser
-        this.openBrowser(this.baseUrl);
+        openBrowser(baseUrl);
     }
 
     @Test
